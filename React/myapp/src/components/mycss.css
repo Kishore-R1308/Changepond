@@ -1,0 +1,14 @@
+
+
+.special{
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: darkorchid;
+    transition: transform 2s;
+    margin: auto;
+}
+.special:hover{
+    transform: rotateY(340deg);
+}

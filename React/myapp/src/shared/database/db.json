@@ -1,0 +1,40 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "pname": "Laptop",
+      "pprice": "154000",
+      "pcompany": "HP"
+    },
+    {
+      "id": "2",
+      "pname": "Mouse",
+      "pprice": 5000,
+      "pcompany": "DELL"
+    },
+    {
+      "id": "3176",
+      "pname": "computer",
+      "pprice": "45564",
+      "pcompany": "lp"
+    },
+    {
+      "id": "490f",
+      "pname": "pen",
+      "pprice": "10",
+      "pcompany": "cello"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "uid": "admin@gmail.com",
+      "upassword": "admin@123"
+    },
+    {
+      "id": "2",
+      "uid": "king@gmail.com",
+      "upassword": "king@123"
+    }
+  ]
+}
