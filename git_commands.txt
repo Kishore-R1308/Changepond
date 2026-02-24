@@ -1,0 +1,41 @@
+git init - It will initialize or re-initialize the git repository
+
+git status - Displays the status of files or folder in git repository
+
+git add <filename>, git add . - adds the files into local repository
+
+git rm --cached <filename> - It will remove the files from staging environment to the working environment
+
+git restore <filename> - If the file is modified in the working directory and it is different from staging environment
+
+git rm --cached * -r - It will move the files from staging to working recursively (if there are files in subfolder they will also moved to working).
+
+git add -A - It will also move all files along with the folders in the staging
+
+git rm --chaced * -f -r - It will forcefully move the file from staging to working
+
+git config --list - Displays all the git configuration set parameters
+
+git config user.name "<username>"
+git config user.email "<user-mail>"
+
+git log - It will show the 
+
+git diff = it will show the difference between the git lates commited repository and the working directory file,
+in case they are not same
+
+git diff <commit_id> - It will show the difference of files between latest commit version and the version you want to compare
+
+git diff --stages - it will show the difference between latest commited version and the files in staging environment
+
+git show - it will show the idfference between latest and previous commit version
+
+git reset <commit_id> - it is soft reset it will reset the master branch to that given commit version
+without any changes to the working directory file
+
+git reset <commit_id> --hard - it will reset the master branch to that given commite version, 
+it will also change the files as per the commited version file in the working directory
+
+git commit "add text" 
+
+git commit -m "message" - commits the files in staging to local repository with a message
