@@ -1,5 +1,5 @@
 git commands 
-
+  
 1. git init - It will initialize/reinitialize the git repository 
 2. git status - It will display the status of the files/folders in your git repository
 3. git add <filename> - It will add the file in the staging enviroment so that it can be commited
